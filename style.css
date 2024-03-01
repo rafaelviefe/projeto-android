@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cabeçario';
+    src: url('conteudos/fontes/titulo.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'subtitulo';
+    src: url('conteudos/fontes/subtitulo.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'titulo';
+    src: url('conteudos/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    margin: 0px;
+    background-image: linear-gradient(180deg, #E8E7C4, #AAA991);
+}
+header{
+    background-image: linear-gradient(180deg, #229355, #033D1D);
+    padding: 1px 0px 10px 0px;
+}
+h1{
+    font-family: 'cabeçario';
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    text-shadow: #033D1D 3px 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.artigo{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 30px;
+    text-indent: 30px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+.subtitulo{
+    font-family: 'subtitulo';
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-shadow: #033D1D 3px 0px;
+    margin-bottom: 22px;
+}
+nav{
+    font-family: 'subtitulo';
+    font-size: 1em;
+    text-shadow: #033D1D 3px 0px;
+    padding: 4px 15px 2px 20px;
+}
+nav>a{
+    text-decoration: none;
+    color: #86DFAC;
+    padding: 9px 9px;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+nav>a:hover{
+    background-color: #86dfad93;
+    color: #033D1D;
+    text-shadow: none;
+}
+.top{
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin: auto;
+}
+.bottom{
+    max-width: 800px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    padding: 30px 15px 5px 15px;
+    margin: auto;
+}
+h2{
+    font-family: 'titulo';
+    font-size: 1.6em;
+    color: #033D1D;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-inline-start: 10px;
+    text-align: center;
+    text-shadow: #00000059 2px 2px 4px;
+}
+h3{
+    font-family: 'titulo';
+    font-size: 1.2em;
+    color: #033D1D;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(90deg, #86DFAC, white);
+    padding-inline-start: 10px;
+    text-shadow: #00000059 2px 2px 4px;
+}
+.destaque{
+    font-weight: bold;
+    color: #033D1D;
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+    color: #033D1D;
+    background-color: #86DFAC;
+    text-decoration: none;
+}
+.bold:hover{
+    text-decoration: underline;
+}
+picture{
+    text-align: center;
+    display: block;
+}
+div{
+    padding:56.25% 0 0 0;position:relative;
+}
+.exibition{
+    max-width: 800px;
+    background-color: #033D1D;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+h4{
+    max-width: 740px;
+    background-color: #033D1D;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    padding-inline-start: 20px;
+}
+article{
+    max-width: 750px;
+    background-color: #86DFAC;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding-inline-start: 0px;
+    width: 205px;
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+}
+footer>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #033D1D;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.responsivo{
+    width: 100%;
+}
+.link2{
+    font-weight: bold;
+    color: #033D1D;
+    text-decoration: none;
+    padding: 2px 1px;
+    border-radius: 2px;
+}
+.link2:hover{
+    color: white;
+    background-color: #033D1D;
+}
