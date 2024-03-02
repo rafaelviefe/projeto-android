@@ -17,12 +17,18 @@
     font-weight: normal;
     font-size: normal;
 }
+:root{
+    --cor0: #229355;
+    --cor1: #033D1D;
+    --cor2: #86DFAC;
+    --font1: Arial, Helvetica, sans-serif;
+}
 body{
     margin: 0px;
     background-image: linear-gradient(180deg, #E8E7C4, #AAA991);
 }
 header{
-    background-image: linear-gradient(180deg, #229355, #033D1D);
+    background-image: linear-gradient(180deg, var(--cor0), var(--cor1));
     padding: 1px 0px 10px 0px;
 }
 h1{
@@ -30,13 +36,13 @@ h1{
     font-size: 2.5em;
     color: white;
     text-align: center;
-    text-shadow: #033D1D 3px 0px;
+    text-shadow: var(--cor1) 3px 0px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
 .artigo{
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font1);
     font-size: 0.9em;
     line-height: 30px;
     text-indent: 30px;
@@ -59,7 +65,7 @@ nav{
 }
 nav>a{
     text-decoration: none;
-    color: #86DFAC;
+    color: var(--cor2);
     padding: 9px 9px;
     border-radius: 3px;
     transition-duration: .5s;
